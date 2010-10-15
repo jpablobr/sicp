@@ -18,8 +18,8 @@ class PPSM
 
     # Sum of Sqr
     def sos( x, y )
-      x = self.sq(x)
-      y = self.sq(y)
+      x = sq(x)
+      y = sq(y)
       x + y
     end
 
